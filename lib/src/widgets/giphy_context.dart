@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:giphy_picker/src/model/giphy_client.dart';
 import 'package:giphy_picker/giphy_picker.dart';
-import 'package:giphy_picker/src/model/giphy_decorator.dart';
 
 /// Provides the context for a Giphy search operation, and makes its data available to its widget sub-tree.
 class GiphyContext extends InheritedWidget {
